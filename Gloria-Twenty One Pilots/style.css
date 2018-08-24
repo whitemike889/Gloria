@@ -1,0 +1,167 @@
+body{
+	color: yellow;
+	text-align: center;
+	font-family: Ink Free;
+	background-color: black;
+}
+
+h1{
+	color:white;
+	font-family: Agency FB;
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+p{
+	font-weight: bolder;
+	font-style: italic;
+}
+
+p em{
+	font-size: 21px;
+}
+
+#heading {
+	height:200px;
+	text-align: center;
+	padding: 40px;
+	border: 2px solid yellow;
+	border-radius: 8px;
+	background-image: url(https://pbs.twimg.com/media/DhFlx2cW0AAeZrO.jpg) ;
+	background-position: center;
+	background-attachment: fixed;
+} 
+
+.list{
+	color:white;
+}
+
+
+#album-cover {
+	float: left;
+}
+
+#album-cover img {
+		width: 200px;
+		height: 200px;
+		margin-right: 40px;
+}
+
+img{
+	width: 840px;
+	height: 420px;
+	border: 2px solid yellow;
+	border-radius: 4px;
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+
+
+#header {
+	text-align: center;
+	/*background-image:url("data:image/jpeg;base64,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");*/
+	padding: 40px;
+	background-color: black;
+	border: 2px dotted white
+
+}
+
+#nav-bar ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 42px;
+}
+
+li {
+	list-style: none;
+}
+
+a:hover {background-color: yellow;
+
+}
+iframe{
+	border: 2px solid yellow;
+	border-radius: 4px;
+	max-height: 100%;
+	max-width: 100%;
+}
+#about {
+	text-align: center;
+	padding: 40px;
+	border: 2px solid white;
+	border-radius: 8px;
+	background-image: url(https://cdn.dribbble.com/users/2394040/screenshots/4824389/twenty_one_pilots_teaser.png) ;
+	/*background-position: center;
+	background-attachment: fixed;*/
+	color: black;
+}
+#nav-bar{
+	text-transform: uppercase;
+	border: 2px solid white;
+	color: white;
+	font-size: 21px;
+}
+#contact{
+	/*padding: 150px 50px 50px 150px;*/
+	text-align: center;
+	/*margin-left: 150px;*/
+}
+#footer {
+	padding: 5px;
+	background-color: yellow;
+	color: black;
+	text-align: center;
+}
+
+.socials a:hover {
+	background-color: yellow;
+	width: 30px;
+	height: 30px;
+	
+}
+table, th, td {
+	border: 1px solid yellow;
+	border-collapse: collapse;
+    
+
+
+}
+th, td {
+	text-align: left;
+
+}
+table{
+	height: 50px;
+	width: 400px;
+	text-align: center;
+	margin-left: 400px;
+
+
+}
+
+
+h1{
+	text-transform: uppercase;
+}
+span{
+	color: white;
+
+}
+.socials a {
+	padding: 30px;
+}
+.socials img{
+	/*padding-right:10px;
+	padding-left: 10px;*/
+	margin: 0 32px 0 32px;
+	float: center;
+	width:30px;
+	height:30px;
+    border:4px solid black;
+	border-radius: 8px;
+}
